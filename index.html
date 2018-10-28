@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="assets/javascript/game.js"></script>
+    <script src="jquery-3.3.1.min.js"></script>
+</head>
+<body>
+        <div class="container-fluid">
+                <div class="jumbotronp-3 text-primary">
+                    <h1 class="text-center">Crystal Collector</h1>
+                </div>  
+        </div>
+        <br>
+            <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6"> 
+                            <p>You will be given a random number at the start of the game.</p>
+                            <p>There are four crystals below. By clicking the crystal you will add a certain amount of points to your score.</p>
+                            <p>You win the game by matching your total score to a random number. You will lose if you go over the score.</p>
+                            <p>The value of each crystal is hidden from you until you click on it.</p>
+                            <p>Each time the game starts, the game will change the values of each crystal.</p>
+                        </div>
+        <br>
+            </div>
+            <div class="container-fluid">
+                    <h3 class="col-sm-3"></h3>
+                        <h3 class="col-sm-3">Target Score: 
+                            <span id='targetScore'>0</span>
+                        </h3>
+                      <h3 class="col-sm-2 ">Your Score: <span id='yourScore'>0</span>
+                      </h3>
+                      <br>
+                      </div>
+            <div class="container-fluid">
+                        <div class="buttons">
+                            <div class="row">
+                            <div class="col-md-3">
+                            <button class="diamond" id="red" value="5">
+                                <img src="assets/images/red.png" height="250">
+                                </button></div>
+                            <div class="col-md-3">
+                            <button class="diamond" id="blue" value="10">
+                                <img src="assets/images/blue.png" height="250">
+                                </button></div>
+                            <div class="col-md-3">
+                            <button class="diamond" id="yellow" value="15">
+                                <img src="assets/images/yellow.png" height="250">
+                                </button></div>
+                            <div class="col-md-3">
+                            <button class="diamond" id="green" value="20">
+                                <img src="assets/images/green.png" height="250">
+                                </button></div>
+                    </div>
+    
+</body>
+</html>
